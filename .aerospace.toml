@@ -108,43 +108,43 @@ cmd-alt-h = [] # Disable "hide others"
 # '''
 
 
-cmd-alt-ctrl-q = 'layout floating'
-cmd-alt-ctrl-r = 'layout tiling'
-cmd-alt-ctrl-w = 'fullscreen on'
-cmd-alt-ctrl-e = 'fullscreen off'
-cmd-alt-ctrl-t = 'balance-sizes'
+#cmd-alt-ctrl-q = 'layout floating'
+#cmd-alt-ctrl-r = 'layout tiling'
+#cmd-alt-ctrl-w = 'fullscreen on'
+#cmd-alt-ctrl-e = 'fullscreen off'
+#cmd-alt-ctrl-t = 'balance-sizes'
 
-cmd-alt-ctrl-enter = ['layout floating', 'fullscreen on']
-cmd-alt-ctrl-l = ['layout tiling', 'balance-sizes']
-ctrl-alt-cmd-n = 'flatten-workspace-tree'
+cmd-alt-ctrl-f4 = ['layout floating', 'fullscreen on']
+cmd-alt-ctrl-f3 = ['layout tiling', 'balance-sizes']
+cmd-alt-ctrl-n = 'flatten-workspace-tree'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout
 #alt-slash = 'layout tiles horizontal vertical'
 #alt-comma = 'layout accordion horizontal vertical'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
-alt-l = 'focus left --ignore-floating'
-alt-enter = 'focus right --ignore-floating'
-alt-backslash = 'focus down --ignore-floating'
-alt-p = 'focus up --ignore-floating'
+f3 = 'focus left --ignore-floating'
+f4 = 'focus right --ignore-floating'
+f2 = 'focus down --ignore-floating'
+f1 = 'focus up --ignore-floating'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move
-shift-alt-l = 'move left'
-shift-alt-enter = 'move right'
-shift-alt-backslash = 'move down'
-shift-alt-p = 'move up'
+cmd-f3 = 'move left'
+cmd-f4 = 'move right'
+cmd-f2 = 'move down'
+cmd-f1 = 'move up'
 
-#shift-alt-l = 'join-with left'
-#shift-alt-enter = 'join-with right'
-#shift-alt-p = 'join-with up'
-#shift-alt-backslash = 'join-with down'
+cmd-alt-f3 = 'join-with left'
+cmd-alt-f4 = 'join-with right'
+cmd-alt-f2 = 'join-with up'
+cmd-alt-f1 = 'join-with down'
 
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#resize
-ctrl-alt-enter = 'resize width +200'
-ctrl-alt-l = 'resize width -200'
-ctrl-alt-p = 'resize height +200'
-ctrl-alt-backslash = 'resize height -200'
+alt-f4 = 'resize width +200'
+alt-f3 = 'resize width -200'
+alt-f1 = 'resize height +200'
+alt-f2 = 'resize height -200'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 #alt-1 = 'workspace 1'
