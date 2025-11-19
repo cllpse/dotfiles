@@ -1,0 +1,103 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "cllpse light",
+  "short_name": "cllpse-light",
+  "author": "cllpse",
+  "theme": {
+    "tints": {
+      "background_tab": [
+        0,
+        0,
+        0
+      ],
+      "buttons": [
+        0,
+        0,
+        0
+      ],
+      "frame": [
+        0,
+        0,
+        0
+      ],
+      "frame_inactive": [
+        0,
+        0,
+        0
+      ]
+    },
+    "colors": {
+      "frame": [
+        255,
+        255,
+        255
+      ],
+      "frame_inactive": [
+        255,
+        255,
+        255
+      ],
+      "toolbar": [
+        229,
+        229,
+        230
+      ],
+      "toolbar_button_icon": [
+        38,
+        38,
+        38
+      ],
+      "toolbar_text": [
+        38,
+        38,
+        38
+      ],
+      "tab_background_text": [
+        124,
+        124,
+        124
+      ],
+      "tab_background_text_inactive": [
+        124,
+        124,
+        124
+      ],
+      "tab_text": [
+        38,
+        38,
+        38
+      ],
+      "background_tab": [
+        255,
+        255,
+        255
+      ],
+      "background_tab_inactive": [
+        255,
+        255,
+        255
+      ],
+      "bookmark_text": [
+        38,
+        38,
+        38
+      ],
+      "button_background": [
+        255,
+        255,
+        255
+      ],
+      "omnibox_background": [
+        124,
+        124,
+        124
+      ],
+      "omnibox_text": [
+        38,
+        38,
+        38
+      ]
+    }
+  }
+}

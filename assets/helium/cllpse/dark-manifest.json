@@ -1,0 +1,81 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "cllpse dark",
+  "short_name": "cllpse-dark",
+  "author": "cllpse",
+  "theme": {
+    "colors": {
+      "frame": [
+        28,
+        28,
+        28
+      ],
+      "frame_inactive": [
+        28,
+        28,
+        28
+      ],
+      "toolbar": [
+        48,
+        49,
+        51
+      ],
+      "toolbar_button_icon": [
+        232,
+        232,
+        232
+      ],
+      "toolbar_text": [
+        232,
+        232,
+        232
+      ],
+      "tab_background_text": [
+        152,
+        152,
+        152
+      ],
+      "tab_background_text_inactive": [
+        152,
+        152,
+        152
+      ],
+      "tab_text": [
+        232,
+        232,
+        232
+      ],
+      "background_tab": [
+        28,
+        28,
+        28
+      ],
+      "background_tab_inactive": [
+        28,
+        28,
+        28
+      ],
+      "bookmark_text": [
+        232,
+        232,
+        232
+      ],
+      "button_background": [
+        28,
+        28,
+        28
+      ],
+      "omnibox_background": [
+        152,
+        152,
+        152
+      ],
+      "omnibox_text": [
+        232,
+        232,
+        232
+      ]
+    }
+  }
+}
