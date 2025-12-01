@@ -6,6 +6,8 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'--color=fg:#11111b,fg+:#7287fd,bg:#F4F
 
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 
+
+
 plug "zsh-users/zsh-syntax-highlighting"
 plug "wintermi/zsh-lsd"
 plug "zap-zsh/fzf"
@@ -34,3 +36,5 @@ precmd() {
 }
 
 PROMPT='%{$(tput cup $LINES 0)%}'"$PROMPT"
+
+alias ls="lsd -a"
