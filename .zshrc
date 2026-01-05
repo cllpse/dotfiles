@@ -6,8 +6,6 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'--color=fg:#11111b,fg+:#7287fd,bg:#F4F
 
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 
-
-
 plug "zsh-users/zsh-syntax-highlighting"
 plug "wintermi/zsh-lsd"
 plug "zap-zsh/fzf"
@@ -31,10 +29,6 @@ zle -N clear-screen-widget
 
 eval "$(zoxide init --cmd cd zsh)"
 
-precmd() {
-  printf '%s' "$(tput cup $LINES 0)"
-}
-
-PROMPT='%{$(tput cup $LINES 0)%}'"$PROMPT"
+PROMPT='%{$(tput cup $LINES 1)%}'"$PROMPT"
 
 alias ls="lsd -a"
