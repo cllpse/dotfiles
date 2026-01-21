@@ -1,0 +1,8 @@
+version: "2"
+authtoken: 32Pd5BClFxqCsaRJbk6opwpihFQ_3j6uDqEHBT3U4Vsz43Vs4
+tunnels:
+  good-tape:
+    proto: http
+    addr: 127.0.0.1:3000
+    hostname: thomas-web.eu.ngrok.io
+console_ui_color: "transparent"

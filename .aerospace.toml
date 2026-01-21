@@ -154,13 +154,78 @@ esc = ['reload-config', 'mode main']
 
 [[on-window-detected]]
 check-further-callbacks = true
-run = 'move-node-to-workspace Floating --focus-follows-window'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
 
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.mitchellh.ghostty'
+run = ['layout tiling', 'move-node-to-workspace Tiling --focus-follows-window']
 
-[workspace-to-monitor-force-assignment]
-#1 = '^Built-in.*$'
-#2 = '^DELL U.*$'
-#3 = '^DELL S.*$'
-#     4 = '^dell$'
-#     5 = 'main'
-#     6 = '^elgato$'
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'net.imput.helium'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+# YouTube Music
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.google.Chrome.app.cinhimbnkkaeohfgghhklpknlkffjgod'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.google.Chrome'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+[[on-window-detected]]
+check-further-callbacks = false
+if.app-id = 'com.google.Chrome'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.tinyspeck.slackmacgap'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+# Cursor
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.todesktop.230313mzl4w4u92'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.figma.Desktop'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
+
+[[on-window-detected]]
+check-further-callbacks = true
+if.app-id = 'com.apple.finder'
+run = [
+  'layout floating',
+  'move-node-to-workspace Floating --focus-follows-window',
+]
