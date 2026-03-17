@@ -26,6 +26,9 @@ window-inherit-working-directory = true
 window-padding-x = 16
 window-padding-y = 16
 theme = GitHub Light Default
+window-vsync = true
+#macos-window-shadow = false
+
 
 
 selection-foreground = #11111b
