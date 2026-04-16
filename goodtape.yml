@@ -1,0 +1,8 @@
+name: goodtape
+windows:
+  - panes:
+      - command: npm run start
+      - split: right
+        command: npm run test
+      - split: down
+        command: htop

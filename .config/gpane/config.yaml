@@ -1,0 +1,22 @@
+# gpane config - edit or run 'gpane setup' again
+projects_root: /Users/wrk/Sites
+default_layout: 3-3
+
+default_commands:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+
+projects:
+  web:
+    layout: 3-3
+    commands:
+      - "cd ~/Sites/ui && npm run sync-watch:web"
+      - "cd ~/Sites/ui && npm run sync-watch:figma-plugin"
+      - "cd ~/Sites/figma-plugin && npm run watch"
+      - "ngrok start good-tape"
+      - "npx supabase start && atlas deployment start && cd ~/Sites/web && npm run dev"
+      - osascript -e 'tell application "System Events" to keystroke "=" using {command down, control down}' && clear
